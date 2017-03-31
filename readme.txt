@@ -4,7 +4,7 @@ This folder contains the code for our entry in the Apparent Personality Analysis
 1) This code runs in MATLAB, and tested in a Linux system, if you want to run it on a Windows-based system instead, please change line 17 of main.m accordingly, i.e. bss = '\';
 
 2) Since the features are too big to upload to GitHub, they are placed in a separate (Dropbox) folder. You can find them on the following  link:
- https://dl.dropboxusercontent.com/u/99732257/features_cvpr2017.zip 
+ https://www.dropbox.com/sh/ciem9jt79jfbt28/AACg5e1MVQvQa_LjVc3XRcisa?dl=0 
 Please make sure that the .mat files are placed under the path ./data/features.
 
 3) The code produces the test set estimations using the development (training+validation) set. Note that the features extracted contain both training, validation and test set instances. In the given features, the test set instances are separated to ease memory/computations.
@@ -16,8 +16,7 @@ For face alignment, you need the IntraFace library. For feature extraction, you 
 If you use this fine-tuned network, please also cite:
 H. Kaya, F. Gürpınar, A. A. Salah, Video-Based Emotion Recognition in the Wild using Deep Transfer Learning and Score Fusion, Image and Vision Computing, Available online 4 February 2017, http://dx.doi.org/10.1016/j.imavis.2017.01.012.
 
-6) If the corresponding flag is set, the test set predictions will be written to predictions.pkl reading the template file prediction_template_test.pkl (provided by the organizers)
- and predictions.csv that we create from final predicitons. 
+6) If the corresponding flag is set, the test set predictions will be written to predictions.pkl reading the template file prediction_template_test.pkl (provided by the organizers) and predictions.csv that we create from final predicitons. 
 
 
 Happy hacking!
