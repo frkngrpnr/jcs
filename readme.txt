@@ -1,4 +1,4 @@
-This folder contains the code for our entry in the Apparent Personality Analysis and Job Candidate Screening Coopetition Workshop @CVPR 2016.
+This folder contains the code for our entry in the Apparent Personality Analysis and Job Candidate Screening Coopetition Workshop @CVPR 2017.
 
 %% Notes
 1) This code runs in MATLAB, and tested in a Linux system, if you want to run it on a Windows-based system instead, please change line 17 of main.m accordingly, i.e. bss = '\';
