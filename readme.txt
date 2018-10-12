@@ -3,8 +3,8 @@ This folder contains the code for our entry in the Apparent Personality Analysis
 %% Notes
 1) This code runs in MATLAB, and tested in a Linux system, if you want to run it on a Windows-based system instead, please change line 17 of main.m accordingly, i.e. bss = '\';
 
-2) Since the features are too big to upload to GitHub, they are placed in a separate (Dropbox) folder. You can find them on the following  link:
- https://www.dropbox.com/sh/ciem9jt79jfbt28/AACg5e1MVQvQa_LjVc3XRcisa?dl=0 
+2) Since the features are too big to upload to GitHub, they are placed in a separate folder. You can find them on the following  link:
+ https://drive.google.com/open?id=1RUN5CKh9-jCdjo9yJ1L4BaTpYs7VA4sG 
 Please make sure that the .mat files are placed under the path ./data/features.
 
 3) The code produces the test set estimations using the development (training+validation) set. Note that the features extracted contain both training, validation and test set instances. In the given features, the test set instances are separated to ease memory/computations.
